@@ -1,0 +1,35 @@
+{
+  "name": "ielts-word-shadowing",
+  "version": "1.0.0",
+  "description": "IELTS vocabulary shadowing web player & pronunciation audio collection (3,489 MP3s across 7 lists / 35 units).",
+  "keywords": [
+    "ielts",
+    "vocabulary",
+    "shadowing",
+    "pronunciation",
+    "audio",
+    "english-learning"
+  ],
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "start": "node server.mjs",
+    "test:server": "node --test server.test.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.475.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.9",
+    "@types/react": "^19.0.6",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.9",
+    "typescript": "^5.7.3",
+    "vite": "^6.2.0"
+  }
+}

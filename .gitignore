@@ -5,3 +5,10 @@
 ._*
 .Spotlight-V100
 .Trashes
+
+# Node / Build
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+.env.local
